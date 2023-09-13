@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakistan Flag</title>
+    <style>
+        #border{
+            border: 1px solid black;
+            height: 500px;
+            width: 700px ;
+        }
+        .white{
+            position: relative;
+            border: 1px solid black;
+            height: 300px;
+            width: 200px ;
+            top: 100px;
+            left: 50px;
+            background-color: antiquewhite;
+
+        }
+        .green{
+            position: absolute;
+            border: 1px solid black;
+            height: 300px;
+            width: 400px ;
+            left: 200px;
+            background-color: green;
+
+        }
+        .moon{
+            border: 1px solid black;
+            position:absolute;
+            height: 200px;
+            width: 200px;
+            top: 50px;
+            left: 100px;
+            border-radius: 50%;
+            background-color: white;
+
+            
+        }
+        .moon2{
+            position:absolute;
+            height: 200px;
+            width: 200px;
+            bottom: 35px;
+            left: 30px;
+            border-radius: 50%;
+            background-color: green;
+
+        }
+        .star{
+            position: absolute;
+            left: 20pt;
+            top: 30pt;
+            height: 0;
+            width: 0;
+            border-bottom: 50px solid white;
+            border-right: 70px solid transparent;
+            border-left: 70px solid transparent;
+            transform: rotate(30deg);
+        }
+        .star::after{
+            content: '';
+            position: absolute;
+            left: -80px;
+            top: 4px;
+            height: 0;
+            width: 0;
+            border-bottom: 50px solid white;
+            border-right: 70px solid transparent;
+            border-left: 70px solid transparent;
+            transform: rotate(-75deg);
+        }
+        .star::before{
+            content: '';
+            position: absolute;
+            height: 0;
+            width: 0;
+            border-bottom: 70px solid white;
+            border-right: 30px solid transparent;
+            border-left: 30px solid transparent;
+            top: -30px;
+            left: -50px;
+            transform: rotate(-28deg);
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="border">
+        <div class="white">
+            <div class="green">
+                <div class="moon">
+                    <div class="moon2">
+                        <div class="star">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+            
+
+        </div>
+        
+       
+    </div>
+    
+</body>
+</html>
